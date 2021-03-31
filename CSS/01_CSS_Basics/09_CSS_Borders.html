@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Borders</title>
+    <style>
+        body{
+            font-family: Arial , Sans-serif;
+            margin-bottom: 500px;
+        }
+        div{
+            background-color: lightgreen;
+            text-align: center;
+            padding: 20px;
+            font-size: 25px;
+            width: 800px;
+        }
+        #border-all{
+            border: 10px solid limegreen;
+        }
+        #border-single{
+            border-left: 10px solid limegreen;
+        }
+        #border-rounded{
+            border: 10px solid limegreen;
+            border-radius: 30px;
+        }
+        #border-rounded-two{
+            border: 10px solid limegreen;
+            border-radius: 50px 0 50px 0;
+        }
+        #circle{
+            height: 200px;
+            width: 200px;
+            box-shadow: 0 0 10px black;
+            border-radius: 50%;
+            background-color: lightgreen;
+        }
+        #border-circle{
+            height: 200px;
+            width: 200px;
+            box-shadow: 0 0 10px black;
+            border-radius: 50%;
+            background-color: lightgreen;
+            border: 15px solid limegreen;
+        }
+        #border-frame{
+            height: 200px;
+            width: 200px;
+            box-shadow: 0 0 10px black;
+            border-top: 15px solid limegreen;
+            border-bottom: 15px solid red;
+            border-right: 15px solid orange;
+            border-left: 15px solid orangered;
+        }
+        #youtube{
+            height: 300px;
+            width: 500px;
+            box-shadow: 0 0 10px black;
+            border-top: 15px solid limegreen;
+            border-bottom: 15px solid red;
+            border-right: 50px solid orange;
+            border-left: 50px solid orangered;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Border All Side</h1>
+<div id="border-all">
+    <h2>Border All Sides</h2>
+</div>
+
+<h1>Border Single Side</h1>
+<div id="border-single">
+    <h2>Border Single Sides</h2>
+</div>
+
+<h1>Border Rounded All</h1>
+<div id="border-rounded">
+    <h2>Border Rounded All</h2>
+</div>
+
+<h1>Border Rounded Two Sides</h1>
+<div id="border-rounded-two">
+    <h2>Border Rounded Two</h2>
+</div>
+
+<h2>Circle</h2>
+<section id="circle">
+
+</section>
+
+<h2>Border Circle</h2>
+<section id="border-circle">
+
+</section>
+
+<h2>Border Frame</h2>
+<section id="border-frame">
+
+</section>
+
+<h2>Custom Border</h2>
+<section id="youtube">
+    <iframe width="500" height="300" src="https://www.youtube-nocookie.com/embed/116sMd5U7UY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+</body>
+</html>

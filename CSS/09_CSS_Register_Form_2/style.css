@@ -1,0 +1,58 @@
+.register-div{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    width: 300px;
+    padding: 15px;
+    color: white;
+    margin: 50px auto;
+    box-shadow: 0 5px 10px black;
+    border-radius: 10px;
+}
+.fa-user-circle{
+    font-size: 80px;
+    text-align: center;
+    display: block;
+    border: 10px solid deeppink;
+    background-color: deeppink;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0 0 5px black;
+    margin-top: -50px;
+}
+
+.register-div h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.form-control{
+    font-size: 18px;
+    height: 35px;
+    width: 290px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #f5ccee;
+    border-bottom: 3px solid #f5ccee;
+}
+.form-control:focus{
+    border-bottom: 3px solid #f7c5e6;
+}
+::placeholder{
+    color: #f5ccee;
+}
+.register-btn{
+    margin: 10px 0;
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    width: 290px;
+    box-shadow: 0 5px 10px black;
+    border-radius: 10px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Display</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+        div{
+            margin: 10px;
+        }
+        h3{
+            background-color: lightsalmon;
+            padding: 5px;
+            margin: 5px;
+            display: inline;
+
+        }
+        span{
+            background-color: orange;
+            display: block;
+        }
+        h1{
+            background-color: darkred;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            display: none;
+        }
+        a{
+            background-color: blueviolet;
+            color: white;
+            padding: 5px;
+             margin: 5px;
+            display: block;
+
+        }
+        .parent{
+            background-color: lightgray;
+            padding: 15px;
+            text-align: center;
+        }
+        .child{
+            background-color: blueviolet;
+            color: whitesmoke;
+            padding: 15px;
+            width: 180px;
+            display: inline-block;
+            box-shadow: 0 0 10px black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- inline -->
+    <div>
+        <h3>Good Morning</h3>
+        <h3>Good Evening</h3>
+        <h3>Good Afternoon</h3>
+    </div>
+
+    <!-- block -->
+    <div>
+        <p><span>1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            <span>2. Ad architecto autem consequatur corporis impedit praesentium.</span>
+            <span>3. reiciendis repudiandae? Aut dolores explicabo laboriosam numquam.</span>
+            quia voluptatibus. Atque deleniti doloremque ea eaque explicabo impedit.
+            ipsum iste magnam modi perferendis quam reiciendis, tenetur ut?
+        </p>
+    </div>
+
+    <!-- block -->
+    <div>
+        <a href="#">Home</a>
+        <a href="#">About Us </a>
+        <a href="#">Courses</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+   <!-- Hide -->
+    <div>
+        <h1>Hello Iam Hidden</h1>
+    </div>
+
+    <!-- Inline Block -->
+    <div class="parent">
+
+        <div class="child">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquid autem commodi consectetur distinctio eius et eveniet excepturi, expedita explicabo id labore laudantium maiores maxime modi nam natus nesciunt provident quaerat quam quidem recusandae sapiente sed sunt tenetur voluptatum?</p>
+        </div>
+
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquid autem commodi consectetur distinctio eius et eveniet excepturi, expedita explicabo id labore laudantium maiores maxime modi nam natus nesciunt provident quaerat quam quidem recusandae sapiente sed sunt tenetur voluptatum?</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquid autem commodi consectetur distinctio eius et eveniet excepturi, expedita explicabo id labore laudantium maiores maxime modi nam natus nesciunt provident quaerat quam quidem recusandae sapiente sed sunt tenetur voluptatum?</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquid autem commodi consectetur distinctio eius et eveniet excepturi, expedita explicabo id labore laudantium maiores maxime modi nam natus nesciunt provident quaerat quam quidem recusandae sapiente sed sunt tenetur voluptatum?</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquid autem commodi consectetur distinctio eius et eveniet excepturi, expedita explicabo id labore laudantium maiores maxime modi nam natus nesciunt provident quaerat quam quidem recusandae sapiente sed sunt tenetur voluptatum?</p>
+        </div>
+    </div>
+
+</body>
+</html>
